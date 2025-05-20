@@ -1,9 +1,7 @@
 from django.contrib import admin
 from django.urls import include, path
 from core.serializers import CategoriaSerializer
-from core.views.categoria import CategoriaViewSet
 from core.serializers import EditoraSerializer
-from core.views.editora import EditoraSerializer
 from drf_spectacular.views import (
     SpectacularAPIView,
     SpectacularRedocView,
