@@ -1,3 +1,4 @@
+from posixpath import basename
 from django.contrib import admin
 from django.urls import include, path
 from core.serializers import CategoriaSerializer
@@ -9,7 +10,7 @@ from drf_spectacular.views import (
 )
 from rest_framework.routers import DefaultRouter
 
-from core.views import UserViewSet, CategoriaViewSet, EditoraViewSet, AutorViewSet
+from core.views import AutorViewSet, CategoriaViewSet, EditoraViewSet, LivroViewSet, UserViewSet 
 
 router = DefaultRouter()
 
@@ -17,6 +18,8 @@ router.register(r'usuarios', UserViewSet, basename='usuarios')
 router.register(r'categorias', CategoriaViewSet, basename='categorias')
 router.register(r'editoras', EditoraViewSet, basename='editoras')
 router.register(r'autores', AutorViewSet, basename='autores' )
+router.register(r'livros', LivroViewSet, basename='livros')
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     # OpenAPI 3
