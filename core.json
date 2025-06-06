@@ -29,24 +29,24 @@
   "model": "admin.logentry",
   "pk": 3,
   "fields": {
-    "action_time": "2025-03-28T11:36:39.451Z",
+    "action_time": "2025-03-25T19:07:31.578Z",
     "user": 1,
-    "content_type": 7,
-    "object_id": "1",
-    "object_repr": "(1) terror",
-    "action_flag": 1,
-    "change_message": "[{\"added\": {}}]"
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
   }
 },
 {
   "model": "admin.logentry",
   "pk": 4,
   "fields": {
-    "action_time": "2025-03-28T11:44:02.970Z",
+    "action_time": "2025-03-25T19:38:05.643Z",
     "user": 1,
     "content_type": 7,
-    "object_id": "2",
-    "object_repr": "(2) AVENTURA",
+    "object_id": "1",
+    "object_repr": "Categoria object (1)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -55,11 +55,11 @@
   "model": "admin.logentry",
   "pk": 5,
   "fields": {
-    "action_time": "2025-03-28T11:44:25.737Z",
+    "action_time": "2025-03-25T19:38:08.889Z",
     "user": 1,
     "content_type": 7,
-    "object_id": "3",
-    "object_repr": "(3) COMÉDIA",
+    "object_id": "2",
+    "object_repr": "Categoria object (2)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -68,11 +68,11 @@
   "model": "admin.logentry",
   "pk": 6,
   "fields": {
-    "action_time": "2025-03-28T11:44:52.673Z",
+    "action_time": "2025-03-25T19:38:12.738Z",
     "user": 1,
     "content_type": 7,
-    "object_id": "4",
-    "object_repr": "(4) SUSPENSE",
+    "object_id": "3",
+    "object_repr": "Categoria object (3)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -81,11 +81,11 @@
   "model": "admin.logentry",
   "pk": 7,
   "fields": {
-    "action_time": "2025-05-20T19:49:13.683Z",
+    "action_time": "2025-03-25T19:38:16.898Z",
     "user": 1,
-    "content_type": 9,
-    "object_id": "1",
-    "object_repr": "(1) SERGINHO MELO",
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Categoria object (4)",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -94,13 +94,403 @@
   "model": "admin.logentry",
   "pk": 8,
   "fields": {
-    "action_time": "2025-05-20T19:49:15.954Z",
+    "action_time": "2025-03-25T19:38:22.879Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Categoria object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-03-25T19:38:30.939Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Categoria object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-03-25T19:38:36.659Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Categoria object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-03-28T11:18:11.618Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Categoria object (6)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Descricao\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-03-28T11:18:24.097Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Categoria object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-04-01T19:34:45.064Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "(1) Martins Fontes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-04-01T19:34:50.166Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "(2) Alta Books",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-04-01T19:35:00.136Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "(3) Novatec",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-04-01T19:35:16.747Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "(4) Dark Side",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-04-04T12:21:29.364Z",
     "user": 1,
     "content_type": 9,
     "object_id": "1",
-    "object_repr": "(1) SERGINHO MELO",
+    "object_repr": "(1) J. R. R. Tolkien",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-04-04T12:21:35.054Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "(2) C. S. Lewis",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-04-04T12:21:41.392Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "(3) Marco André Mendes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-04-11T12:09:07.195Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) O Senhor dos Anéis (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-04-11T12:09:18.205Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) As Crônicas de Nárnia (23)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-04-11T12:09:25.646Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "(3) O Código Limpo (0)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-04-11T12:09:37.114Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "(4) O Hobbit (20)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-04-15T19:13:56.847Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "17",
+    "object_repr": "(17) Distopia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-04-15T19:13:58.929Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "(5) 1984 (84)",
     "action_flag": 2,
-    "change_message": "[]"
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-04-15T19:14:05.179Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) O Senhor dos Anéis (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-04-15T19:14:17.372Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "(3) O Código Limpo (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-04-15T19:21:09.554Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "(4) O Hobbit (20)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\", \"Editora\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-04-15T19:21:50.306Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "15",
+    "object_repr": "(15) volei",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-04-15T19:22:10.953Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "(4) O Hobbit (20)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-04-15T19:22:18.062Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "(2) As Crônicas de Nárnia (23)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-04-22T18:46:03.313Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) O Senhor dos Anéis (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-04-22T18:46:13.066Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "(3) O Código Limpo (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2025-04-22T18:54:52.885Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) O Senhor dos Anéis (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Coautor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2025-04-22T18:55:08.433Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "(3) O Código Limpo (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autor\", \"Coautor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2025-04-22T19:02:41.117Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) O Senhor dos Anéis (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autores\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2025-04-22T19:02:48.769Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "(3) O Código Limpo (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autores\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2025-04-22T19:02:56.672Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "(1) O Senhor dos Anéis (10)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Autores\"]}}]"
   }
 },
 {
@@ -545,10 +935,26 @@
 },
 {
   "model": "sessions.session",
+  "pk": "4c33e0uhz2ygbg7dx3dtd161k2vngs9e",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAoUMCle89AZphBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLLU6_G0J-cNsB3aHdZpnnti4Tyl2RB-3yOhM_L4f7d1Ch12-NttDg0BkcDHtWmTFmcMyBtCH0bCEEz2PxGbwuFNGQylFFJkvBjOL9ARl_OTE:1tzhNc:g1xotKEib0pDQ41KAj_hJrG4NNmOYuoSxsOQ19vLXio",
+    "expire_date": "2025-04-15T19:34:36.924Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "60aibj2qccnugrjh11uyhrhmwzdui1oh",
   "fields": {
     "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sLnSm:j0HQkjbNxWzfywH481e3iiy2qq08knrwB1ZLaagwRb0",
     "expire_date": "2024-07-08T17:26:44.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8u1cbcl1s2te66a5v9zgkl094we288c2",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAoUMCle89AZphBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLLU6_G0J-cNsB3aHdZpnnti4Tyl2RB-3yOhM_L4f7d1Ch12-NttDg0BkcDHtWmTFmcMyBtCH0bCEEz2PxGbwuFNGQylFFJkvBjOL9ARl_OTE:1tx9c6:lk72ecBT3ZpRty_OCT4QixC9JOxgd2-OdLMHhioYk0c",
+    "expire_date": "2025-04-08T19:07:02.029Z"
   }
 },
 {
@@ -561,10 +967,10 @@
 },
 {
   "model": "sessions.session",
-  "pk": "iel29n6uo1top0mr2h6m1lw8fe34pyxh",
+  "pk": "g52jtkml05v09ed9qzx8p10x9nq5bxmd",
   "fields": {
-    "session_data": ".eJxVjDsOwjAQBe_iGln-xD9Kes5grb1rHEC2FCcV4u4QKQW0b2bei0XY1hq3QUuckZ2ZZKffLUF-UNsB3qHdOs-9rcuc-K7wgw5-7UjPy-H-HVQY9VuHoLMKpJWmBNb4VIywkL0nVaQFIa32IansMExYrBChOJqEVsKgchLZ-wPWWDdJ:1tx9el:b1rkxYUV1UhwI_LcPYnTs37OtPJgZqIClE6XYXbJik0",
-    "expire_date": "2025-04-08T19:09:47.595Z"
+    "session_data": ".eJxVjEEOwiAQRe_C2hAoUMCle89AZphBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLLU6_G0J-cNsB3aHdZpnnti4Tyl2RB-3yOhM_L4f7d1Ch12-NttDg0BkcDHtWmTFmcMyBtCH0bCEEz2PxGbwuFNGQylFFJkvBjOL9ARl_OTE:1u7Icy:oS5YcosfuKNz-o46U0OZudGb-WNjZ_zMVnaOnlJXmts",
+    "expire_date": "2025-05-06T18:45:52.514Z"
   }
 },
 {
@@ -577,18 +983,18 @@
 },
 {
   "model": "sessions.session",
-  "pk": "ksgiyxsisx8yggc040xnw0oop5uin98k",
+  "pk": "omj3c8q428eqob3xr0urc48hds4vj9fa",
   "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2pCZFmhx6d4zNMMwSNVAUtqV8e7apAvd_vfef6mJtjVPW5NlmqM6K1Sn3y0QP6TsIN6p3KrmWtZlDnpX9EGbvtYoz8vh_h1kavlb-wQOwRlrRNh629kRBkjkPIkgIHIvA_dhNAmFEUhQoonJB4MBu6TeH82CN-8:1uHScq:A8oy4lvJSV28Qqz8o28ckbNLafFtAykX-N5Gfwv5Ip0",
-    "expire_date": "2025-06-03T19:27:44.213Z"
+    "session_data": ".eJxVjEEOwiAQRe_C2hAoUMCle89AZphBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLLU6_G0J-cNsB3aHdZpnnti4Tyl2RB-3yOhM_L4f7d1Ch12-NttDg0BkcDHtWmTFmcMyBtCH0bCEEz2PxGbwuFNGQylFFJkvBjOL9ARl_OTE:1u3D9Q:O-Zf-V6QtSKE_SxZxFodm_TmiiPYNHOFnjP8PvjHcC0",
+    "expire_date": "2025-04-25T12:06:28.196Z"
   }
 },
 {
   "model": "sessions.session",
-  "pk": "vj5lrglz46bvndrfn18ezhb0y8fjkb0v",
+  "pk": "w7jceg13cy6l87yvnug1rb2bwq6lenbn",
   "fields": {
-    "session_data": ".eJxVjEEOwiAQRe_C2pCZFmhx6d4zNMMwSNVAUtqV8e7apAvd_vfef6mJtjVPW5NlmqM6K1Sn3y0QP6TsIN6p3KrmWtZlDnpX9EGbvtYoz8vh_h1kavlb-wQOwRlrRNh629kRBkjkPIkgIHIvA_dhNAmFEUhQoonJB4MBu6TeH82CN-8:1tx9em:MLZ9eU9KLeOzcfL4KaxmNQe2mR3WbUS3yvUGo5T_V8M",
-    "expire_date": "2025-04-08T19:09:48.377Z"
+    "session_data": ".eJxVjEEOwiAQRe_C2hAoUMCle89AZphBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLLU6_G0J-cNsB3aHdZpnnti4Tyl2RB-3yOhM_L4f7d1Ch12-NttDg0BkcDHtWmTFmcMyBtCH0bCEEz2PxGbwuFNGQylFFJkvBjOL9ARl_OTE:1u4lcr:gQu29Ef7IpJrkk4kAWDBiYVRBi6Eh0CSDtwbVzHLFTA",
+    "expire_date": "2025-04-29T19:07:17.027Z"
   }
 },
 {
@@ -603,8 +1009,8 @@
   "model": "core.user",
   "pk": 1,
   "fields": {
-    "password": "pbkdf2_sha256$870000$7F8gsa3ZvfHEqgZTdLoJVs$akmowg8Ys+h8qCcq4zLjSwyrCUQNbQ0fvjj6aX3mhHQ=",
-    "last_login": "2025-05-20T19:27:44.210Z",
+    "password": "pbkdf2_sha256$870000$2oo2LufAf4g5j639xwwjFZ$aWYk4tBFFvMkxbdEJ2aL9QxY2pKvdElLWNgU4Wgfu8s=",
+    "last_login": "2025-04-22T18:45:52.508Z",
     "is_superuser": true,
     "passage_id": "324321544235435",
     "email": "a@a.com",
@@ -616,89 +1022,252 @@
   }
 },
 {
-  "model": "core.user",
-  "pk": 2,
-  "fields": {
-    "password": "!guOeigiAEXjwTck0ZQ9oI58VjCo7jdEJhTzzyREJ",
-    "last_login": null,
-    "is_superuser": false,
-    "passage_id": "hdxkeqXbF8bp1Ql3dNJ0PoTB",
-    "email": "marcoandre@gmail.com",
-    "name": null,
-    "is_active": true,
-    "is_staff": false,
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
   "model": "core.categoria",
   "pk": 1,
   "fields": {
-    "descricao": "terror"
-  }
-},
-{
-  "model": "core.categoria",
-  "pk": 2,
-  "fields": {
-    "descricao": "aventura"
-  }
-},
-{
-  "model": "core.categoria",
-  "pk": 3,
-  "fields": {
-    "descricao": "comédia"
+    "descricao": "Fantasia"
   }
 },
 {
   "model": "core.categoria",
   "pk": 4,
   "fields": {
-    "descricao": "suspense"
+    "descricao": "Estrutura de Dados"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 6,
+  "fields": {
+    "descricao": "Desenvolvimento Web III"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 7,
+  "fields": {
+    "descricao": "Drama"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 9,
+  "fields": {
+    "descricao": "Terror"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 10,
+  "fields": {
+    "descricao": "Comédia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 11,
+  "fields": {
+    "descricao": "futebol"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 13,
+  "fields": {
+    "descricao": "romance"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 14,
+  "fields": {
+    "descricao": "filosofia"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 16,
+  "fields": {
+    "descricao": "Auto ajuda"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 17,
+  "fields": {
+    "descricao": "Distopia"
   }
 },
 {
   "model": "core.editora",
   "pk": 1,
   "fields": {
-    "nome": "rocco",
-    "site": "https://rocco.com.br/"
+    "nome": "Martins Fontes",
+    "site": "http://martinsfontes.com.br"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 3,
+  "fields": {
+    "nome": "Novatec",
+    "site": "http://novatec.com.br"
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 4,
+  "fields": {
+    "nome": "Dark Side",
+    "site": null
+  }
+},
+{
+  "model": "core.editora",
+  "pk": 5,
+  "fields": {
+    "nome": "LP&M",
+    "site": "http://lpm.com.br"
   }
 },
 {
   "model": "core.autor",
   "pk": 1,
   "fields": {
-    "nome": "serginho melo",
-    "email": "serginhomelo@gmail.com"
+    "nome": "J. R. R. Tolkien",
+    "email": "jrrtolkien@oxford.uk"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 2,
+  "fields": {
+    "nome": "C. S. Lewis",
+    "email": "cslewis@oxford.uk"
+  }
+},
+{
+  "model": "core.autor",
+  "pk": 3,
+  "fields": {
+    "nome": "Marco André Mendes",
+    "email": "marcoandre@gmail.com"
   }
 },
 {
   "model": "core.livro",
   "pk": 1,
   "fields": {
-    "titulo": "A Rainha Vermelha",
-    "isbn": "8565765695",
-    "quantidade": 5,
-    "preco": "32.90",
-    "categoria": null,
+    "titulo": "O Senhor dos Anéis",
+    "isbn": "14543252365",
+    "quantidade": 10,
+    "preco": "20.00",
+    "categoria": 1,
     "editora": null,
-    "autores": []
+    "autores": [
+      1,
+      3
+    ]
   }
 },
 {
   "model": "core.livro",
   "pk": 2,
   "fields": {
-    "titulo": "A Rainha Vermelha",
-    "isbn": "8565765695",
-    "quantidade": 5,
-    "preco": "32.90",
-    "categoria": null,
+    "titulo": "As Crônicas de Nárnia",
+    "isbn": "794375938457934",
+    "quantidade": 23,
+    "preco": "78.00",
+    "categoria": 1,
     "editora": null,
     "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 3,
+  "fields": {
+    "titulo": "O Código Limpo",
+    "isbn": null,
+    "quantidade": 10,
+    "preco": "10.99",
+    "categoria": 6,
+    "editora": null,
+    "autores": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 4,
+  "fields": {
+    "titulo": "O Hobbit",
+    "isbn": "12123",
+    "quantidade": 20,
+    "preco": "1.00",
+    "categoria": 1,
+    "editora": 3,
+    "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 5,
+  "fields": {
+    "titulo": "1984",
+    "isbn": null,
+    "quantidade": 84,
+    "preco": "10.84",
+    "categoria": 17,
+    "editora": null,
+    "autores": []
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 6,
+  "fields": {
+    "titulo": "O pequeno príncipe",
+    "isbn": "81880",
+    "quantidade": 1,
+    "preco": "20.00",
+    "categoria": 1,
+    "editora": 1,
+    "autores": [
+      2
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 7,
+  "fields": {
+    "titulo": "E não sobrou nenhum - edição luxo",
+    "isbn": "12345678910",
+    "quantidade": 5,
+    "preco": "25.00",
+    "categoria": 1,
+    "editora": 1,
+    "autores": [
+      2
+    ]
+  }
+},
+{
+  "model": "core.livro",
+  "pk": 8,
+  "fields": {
+    "titulo": "O ladrão de casaca - edição luxo",
+    "isbn": "8888888",
+    "quantidade": 5,
+    "preco": "25.00",
+    "categoria": 1,
+    "editora": 1,
+    "autores": [
+      2
+    ]
   }
 }
 ]
