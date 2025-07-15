@@ -6,6 +6,7 @@ from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
 
+
 from core import models
 
 
@@ -30,6 +31,7 @@ class UserAdmin(BaseUserAdmin):
         (_('Important dates'), {'fields': ('last_login',)}),
         (_('Groups'), {'fields': ('groups',)}),
         (_('User Permissions'), {'fields': ('user_permissions',)}),
+        (_('Personal Info'), {'fields': ('name', 'passage_id', 'foto')}),
     )
     readonly_fields = ['last_login']
     add_fieldsets = (
