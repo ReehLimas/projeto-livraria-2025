@@ -5,7 +5,7 @@ Django admin customization.
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
-
+from core.models import Compra
 
 from core import models
 
@@ -51,7 +51,11 @@ class UserAdmin(BaseUserAdmin):
             },
         ),
     )
-
+    @admin.register(Compra)
+    class CompraAdmin(admin.ModelAdmin):
+        list_display = ('usuario', 'status')
+        ordering = ('usuario', 'status')
+        list_per_page = 10
 
 admin.site.register(models.User, UserAdmin)
 admin.site.register(models.Categoria)
